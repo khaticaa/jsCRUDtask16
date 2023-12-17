@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image": "../../../assets/img/ss1.png.webp",
+      "name": "Cloud Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 2,
+      "image": "../../../assets/img/ss2.png.webp",
+      "name": "Cloud Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 3,
+      "image": "../../../assets/img/ss3.png.webp",
+      "name": "Cloud Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 4,
+      "image": "../../../assets/img/ss4.png.webp",
+      "name": "Cloud Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 5,
+      "image": "../../../assets/img/ss5.png.webp",
+      "name": "Cloud Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 6,
+      "image": "../../../assets/img/ss6.png.webp",
+      "name": "Cloud Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 7,
+      "image": "../../../assets/img/ss7.png.webp",
+      "name": "Cloud Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 8,
+      "image": "../../../assets/img/ss8.png.webp",
+      "name": "Cloud Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    }
+  ],
+  "favorite": [
+    {
+      "id": 1,
+      "image": "../../../assets/img/ss1.png.webp",
+      "name": "Cloud Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+.banner{
+    width: 100%;
+    
+    background-size: cover;
+    // padding-top: 275px;
+    // padding-bottom: 190px;
+    background: url(../../../assets/img/server-banner.jpg.webp) no-repeat fixed center center;
+    // height: 100vh;
+
+    .banner-o{
+        padding-top: 275px;
+    padding-bottom: 190px;
+        .btop{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding-bottom: 40px;
+            
+     h1{
+        position: relative;
+        
+        width: 275px;
+        font-size: 20px;
+     &::before{
+        content: "Special Offer Now $10 ";
+        color: #fff;
+        background: #fc6428;
+        position: absolute;
+        z-index: 1;
+       
+         left: -86px;
+        top: -108px;
+        width: 500px;
+        text-align: center;
+        font-size: 36px;
+        text-transform: capitalize;
+        font-size: 36px;
+        padding: 20px 0px;
+   
+     }
+
+     &::after{
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 22px 14px 0 14px;
+        border-color: #fc6428 transparent transparent transparent;
+        position: absolute;
+        left: 50%;
+        top: -33px;
+       
+     }
+     }
+        }
+        .bbot{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .bleft{
+               display: flex;
+               flex-direction: column;
+               align-items: flex-start;
+               gap: 30px;
+               h4{
+                font-size: 50px;
+                font-family: "Montserrat", sans-serif;
+                color: #fff;
+                letter-spacing: 0px;
+                text-transform: uppercase;
+           
+               }
+               h5{
+                font-size: 36px;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 300;
+                color: #fff;
+                text-transform: uppercase;
+                letter-spacing: .72px;
+                padding: 25px 0px 25px 0px;
+                        }
+                 p {
+                            font-size: 16px;
+                            line-height: 28px;
+                            font-family: "Poppins", sans-serif;
+                            color: #fff;
+                            letter-spacing: .32px;
+                 }
+
+                 ul{
+                    color: #fff;
+                    max-width: 490px;
+                    overflow: hidden;
+                    margin-top: 25px;
+
+                    li{    width: 50%;
+                        float: left;
+                        overflow: hidden;
+                        margin-top: 15px;
+                    i{
+                        margin: 10px;
+                    }}
+                 }
+
+                 button{
+                    font-size: 18px;
+                    font-family: "Poppins", sans-serif;
+                    margin-top: 75px;
+                    color: #fff;
+                    background: #fc5a1a;
+                    padding: 12px 30px;
+                    border: none; 
+                    display: inline-block;
+                    -webkit-transition: all 0.4s linear;
+                    -o-transition: all 0.4s linear;
+                    transition: all 0.4s linear;
+}
+                 }
+            }
+        }
+
+    }
+
+
+@media screen and (max-width: 768px) {
+    .banner{
+        .banner-o{
+            .bbot{
+                flex-direction: column;
+            }
+        }
+    }
+        
+    }

@@ -1,0 +1,96 @@
+@import "../sass/layout/navbar";
+@import "../sass/layout/banner";
+@import "../sass/layout/sec1";
+@import "../sass/layout/sec2";
+@import "../sass/layout/sec3";
+@import "../sass/layout/footer";
+
+
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 32px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+
+
+.detailcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.detailcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    h4{
+       padding-bottom: 20px;
+    }
+}
+
+.favcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+
+
+.uptadehtml{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 120px;
+    height: 100vh;
+    background-color: rgb(147, 184, 184);
+}
+
+
+#add{
+margin-top: 230px;
+
+form{
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 20px;
+
+}
+}
+
+
+.bi-heart-fill{
+    color: red;
+}
+
+.crud{padding-top: 10px;
+    button{
+        padding: 2px 5px;
+        border: none;
+       color: white;
+        background-color: #7db9e8;
+    }
+}
+
+.addcolor{
+    background-color:orangered;
+    padding: 2px 2px;
+    
+}
